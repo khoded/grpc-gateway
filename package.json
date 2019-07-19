@@ -1,0 +1,24 @@
+{
+  "name": "api-gateway",
+  "version": "1.0.0",
+  "description": "Simple API Gateway using Express JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "SET NODE_ENV=dev && node index.js",
+    "test": "mocha --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/ecojuntak/api-gateway"
+  },
+  "keywords": [
+    "api-gateway"
+  ],
+  "author": "Eko Simanjuntak",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.1",
+    "express": "^4.16.4",
+    "grpc": "^1.22.2"
+  }
+}
